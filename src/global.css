@@ -1,0 +1,32 @@
+/* Color Palette */
+:root {
+    /* Colors */
+    --white: #ffffff;
+    --bluesky: #87CEEB; 
+    --light-rose: #FFE4E1;
+
+    /* Font Families */
+    --init-font : ' Libre Baskerville';
+    --secondary-font: 'Montserrat';
+    --italic-font: ' Playwrite Australia SA ';
+  }
+  
+  /* Example Usage */
+  body {
+    background-color: var(--white);
+  }
+  
+  header {
+    background-color: var(--bluesky);
+    color: var(--white);
+  }
+  
+  .book-card {
+    border: 2px solid var(--light-rose);
+  }
+  
+  .highlight {
+    background-color: var(--light-rose);
+    color: var(--bluesky);
+  }
+  
