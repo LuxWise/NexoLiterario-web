@@ -1,3 +1,4 @@
+
 /* Color Palette */
 :root {
     /* Colors */
@@ -6,12 +7,9 @@
     --light-rose: #FFE4E1;
 
     /* Font Families */
-    --init-font : ' Libre Baskerville';
-    --secondary-font: 'Montserrat';
-    --italic-font: ' Playwrite Australia SA ';
+    
   }
   
-  /* Example Usage */
   body {
     background-color: var(--white);
   }
